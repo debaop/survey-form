@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body> <header class="header">
+  <h1 id="title" class="text-center">Survey Form</h1> 
+<p id="description"> Welcome to submit our survey form</p> </header>
+<form id="survey-form"> 
+  <label id ="name-label"> Enter your name here:-</label>
+ <div class="form-group"> <input id="name" type="text" placeholder="name" required> </div>
+  <label id ="email-label"> Enter your email here </label>
+  <div class="form-group"><input id="email" type ="email" placeholder="email" required></div>
+    <label id="number-label"> Enter your age here</label>
+   <div><input id="number" type ="number" min="20" max="100" placeholder="age"></div>
+
+  <label id="number-label"> What is your current job role?</label> 
+<div><select id="dropdown">
+  <option value="">select one</option>
+  <option value=""> select two</option>
+  <option value=""> select three</option></div>
+
+  </select>
+<legend> would you like to share someone about us?</legend>
+<div><input type="radio" value="definate"name="yes"> Definetly </input></div>
+<div><input type="radio" value="maybe" name="yes"> maybe </input></div>
+<div><label>What do you prefer ?</label></div>
+<label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">front-end-projects</label>
+<label><input name="prefer" value="back-end projects" type="checkbox" class="input-checkbox">back-end-project</label>
+  <form> 
+  <div>
+    <p> Any suggetions in your mind?</p>
+    </div>
+<textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+<div><button type="submit" id="submit" class="submit-button">
+            Submit
+          </button></div>
+</body>
+</html>
